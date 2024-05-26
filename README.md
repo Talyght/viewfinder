@@ -31,14 +31,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About Viewfinder
 
-Viewfinder is a user-friendly tool designed to simplify the analysis and visualization of CSV and Excel datasets. With an intuitive drag-and-drop interface, it offers a comprehensive overview, detailed statistics, and visualizations to help you understand your dataset quickly.
+Viewfinder is a user-friendly tool designed to simplify the analysis and visualization of CSV and Excel datasets. With an intuitive drag-and-drop interface, it offers a comprehensive overview, detailed statistics, and visualizations to help you understand your dataset quickly, the names comes from the viewfinder of cameras where you can get a quick preview useful information before taking the pic, in the same sense Viewfinder aims to help you get a quick preview of your dataset without having to load it on a jupiter notebook or other similar tool.
 
 ### Key Features:
-- **Easy Import**: Drag and drop CSV or Excel files.
-- **Data Overview**: Quick summary of columns, types, missing values, and sample data.
-- **Statistics**: Descriptive stats for numerical columns. 
-- **Visualizations**: Generate histograms to visualize data distributions.
-- **Export**: Export data overview and statistics to Excel.
+
+- **Easy Import**: 
+Drag and drop CSV or Excel files.
+- **Data Overview**: 
+Quick summary of columns, types, missing values, and sample data.
+- **Statistics**: 
+Descriptive stats for numerical columns. 
+- **Visualizations**: 
+Generate histograms to visualize data distributions.
+- **Export**: 
+Export data overview and statistics to Excel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,11 +52,19 @@ Viewfinder is a user-friendly tool designed to simplify the analysis and visuali
 
 ### Built With:
 - **Python** 
-![Python](https://www.python.org/static/img/python-logo@2x.png?width=100px)
+
+![Python](https://www.python.org/static/img/python-logo@2x.png?width=100)
+
 - **PyQt5** 
-![Qt logo](https://www.qt.io/hs-fs/hubfs/Qt-logo-neon_900px.png?width=200) 
-- **Pandas** ![Pandas](https://pandas.pydata.org/static/img/pandas.svg?width=100px)
-- **Matplotlib**![MAtplotlib](https://matplotlib.org/stable/_static/logo_light.svg?width=50)
+
+![Qt logo](https://www.qt.io/hs-fs/hubfs/Qt-logo-neon_900px.png?width=100) 
+
+- **Pandas** 
+
+![Pandas](https://pandas.pydata.org/static/img/pandas.svg?width=100)
+- **Matplotlib**
+
+![MAtplotlib](https://matplotlib.org/stable/_static/logo_light.svg?width=100)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,27 +73,28 @@ Viewfinder is a user-friendly tool designed to simplify the analysis and visuali
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+* Make sure to have python 3.12 installed.
+*(having a venv to run viewfinder is a bit optional, its generally a good practice to keep venvs for projects to prevent littering your local python install, but you be you, if you want to install the requirements.txt directly on your local python config feel free to do so as well)*
 
-* set up a virtual enviroment
+
+* set up a python virtual enviroment:
   ```sh
-  python -m venv venv
+   python -m venv venv
   ```
 * activate the virtual enviroment using: 
 * -On MacOs & Linux:
   ```sh
-  source venv/bin/activate 
+   source venv/bin/activate 
   ```
 
 * -On Windows using CMD:
   
   ```sh
-  .\venv\Scripts\activate.bat
+   .\venv\Scripts\activate.bat
   ```
 
 ### Installation

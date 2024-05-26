@@ -12,8 +12,5 @@ I'm not very happy with the state of the exportData function at the moment my id
 
 ## would be nice
 
-Perhaps rafactoring viewfinder to a more modular architecture could be better for the long term development of the project, but so far it is working.
-
-
-## Documentation
-finish commenting the different functions of each module
+~~Perhaps rafactoring viewfinder to a more modular architecture could be better for the long term development of the project, but so far it is working.~~ 
+-DONE: reafactored to Model View Controller.
